@@ -47,13 +47,15 @@ from mpl_toolkits.mplot3d import Axes3D
 #establishes controls
 
 M=20
-
-
 h=1.0/M
 pi=m.pi
+
+#here we choose a particualr f, but you define another, 
+#just make sure f:R2 -> R, [x[0],x[1]] -> f
+
 def f(x):
     return 2*(pi**2*m.sin(pi*x[0])*m.sin(pi*x[1]))   
-    
+    #other exmple: return x[0] + x[1]
 
 
 #equips vector arithmetic:
