@@ -33,7 +33,7 @@ assuming you have one, you must add into this program on line 354 in order for
 Figure 3 to make sense, which is a plot of the error between our approximate 
 solution and the exact, analytical one.
 
-All examples are given in green print under the assumption that M=3
+All examples are given in green print under the assumption that M=3\
 """
 \
 \
@@ -63,10 +63,12 @@ just make sure f:R2 -> R, [x[0],x[1]] -> f\
 """
 \
 def f(x):\
-    return 2*(pi**2*m.sin(pi*x[0])*m.sin(pi*x[1]))  \ 
+    return 2*(pi**2*m.sin(pi*x[0])*m.sin(pi*x[1]))  
+ \
  \
  """\
  a simpler example:\
  \
  def f(x): return x[0] + x[1]\
  """
+\
