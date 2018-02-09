@@ -57,7 +57,7 @@ pi=m.pi\
 \
 \
 \
-"""
+"""\
 here we choose a particualr f, but you can define anyhting you'd like, \
 just make sure f:R2 -> R, [x[0],x[1]] -> f\
 """
@@ -66,7 +66,7 @@ def f(x):\
     return 2*(pi**2*m.sin(pi*x[0])*m.sin(pi*x[1]))  
  \
  \
- """\
+ """
  a simpler example:\
  \
  def f(x): return x[0] + x[1]\
