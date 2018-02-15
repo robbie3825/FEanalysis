@@ -1,4 +1,5 @@
-# Optimality and Consencus
+# Possion's Eq'n on the unit square, Finite Element Method
+#from scratch 
 
 
 """
